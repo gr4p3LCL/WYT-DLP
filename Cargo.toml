@@ -1,0 +1,12 @@
+[package]
+name = "WYT-DLP"
+authors = ["gr4p3LCL"]
+description = "Wrapper for YT-DLP"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.8"
+reqwest = { version = "0.12.5", features = ["json", "blocking", "multipart"] }
+serde_json = "1.0.120"
+tokio = { version = "1.38.0", features = ["full"] }
